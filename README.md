@@ -1,12 +1,25 @@
-# React + Vite
+# Chat UI 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive chat UI built with **React.js** and styled using **Tailwind CSS**.  
+This application allows users to send and receive messages in a conversational format. Chat history is stored using **localStorage**.
 
-Currently, two official plugins are available:
+##  Tech Stack
+- React.js
+- Tailwind CSS
+- localStorage API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
+- Responsive design (mobile + desktop)
+- Send & receive messages (automated bot reply)
+- Timestamp for each message
+- Local storage for message persistence
 
-## Expanding the ESLint configuration
+##  Live Demo
+[Click here to try it out](https://chat-o9xp5c1nf-harshitas-projects-29aefde6.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started Locally
+```bash
+git clone https://github.com/Harshita222/Chat-UI.git
+cd Chat-UI/chat-app
+npm install
+npm run dev
