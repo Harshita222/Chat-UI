@@ -25,7 +25,7 @@ const ChatBox = () => {
     // Simulate bot reply
     setTimeout(() => {
       const botReply = {
-        text: "This is an automated reply.",
+        text: "Reply to {text}.",
         sender: "bot",
         time: new Date().toLocaleTimeString(),
       };

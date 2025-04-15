@@ -1,6 +1,6 @@
 import React from "react";
 
-const Message = ({ text, sender, time }) => {
+const Message = ({text, sender, time }) => {
   const isUser = sender === "user";
 
   return (

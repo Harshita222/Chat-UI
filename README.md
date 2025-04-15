@@ -15,7 +15,7 @@ This application allows users to send and receive messages in a conversational f
 - Local storage for message persistence
 
 ##  Live Demo
-[Click here to try it out](https://chat-o9xp5c1nf-harshitas-projects-29aefde6.vercel.app/)
+[Click here to try it out](https://chat-ui-xi-one.vercel.app/)
 
 ## Getting Started Locally
 ```bash
